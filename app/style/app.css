@@ -1,0 +1,54 @@
+.form-group.error {
+  color: #f00;
+}
+
+.form-control + .error {
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+.notification {
+  position: absolute;
+  top: 0;
+}
+
+.notification .error {
+  background: #e84949;
+  border-radius: 5px;
+  color: #fff;
+  padding: 3px 15px;
+}
+
+.notification .success {
+  background: #0fad0f;
+  border-radius: 5px;
+  color: #fff;
+  padding: 3px 15px;
+}
+
+.list {
+  padding: 5px 10px;
+  margin: 0;
+  list-style: none;
+}
+
+.list .item {
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+  margin-bottom: 10px;
+}
+
+.list .text {
+  display: inline-block;
+  padding: 0 15px 0;
+  width: 230px;
+}
+
+input.form-control {
+  margin: 0;
+  width: 230px
+}
+
+.icon-plus {
+  margin-left: 260px;
+}
